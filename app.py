@@ -70,12 +70,10 @@ def get_name_popularity():
 # Name this dataframe "babynames"
 
 
-
 # Construct a column giving the rank within each year and sex for each name
 #
 # e.g. Mary is the #1 ranking name for girls in 1910
 #      John is the #1 ranking name for boys in 1910
-
 
 
 #The output should be a column of babynames called 'rank_in_year'
