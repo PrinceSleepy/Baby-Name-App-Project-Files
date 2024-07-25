@@ -41,9 +41,7 @@ def get_name_popularity():
     sex = request.args.get('sex')
     
     # Extract year and rank in year for the given name-sex combination
-    name_subset = babynames[(babynames['name'] == name) & (babynames['sex'] == sex)]
-    name_years = name_subset['year'].tolist()
-    name_ranks = name_subset['rank_in_year'].tolist()
+    
     
     # Some names do not appear in all years
     #
